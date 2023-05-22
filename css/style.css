@@ -16,7 +16,7 @@
     background-color: #FFFFFF;
 }
 
-.logo{
+.header-logo{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -35,7 +35,7 @@
     color: #2E2F42;
 }
 
-.contact{
+.header-adress-link{
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
