@@ -1,5 +1,6 @@
-
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .list{
     list-style: none;
 }
@@ -20,29 +21,34 @@
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 0.85;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }
 
 .nav{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.66;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
+.nav:hover {
+    color: #404BBF;
+}
+
 .header-adress-link{
-    font-family: 'Roboto';
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.66;
     letter-spacing: 0.02em;
     color: #434455;
 } 
 
+.header-adress-link:hover{
+    color: #404BBF;
+}
 
 
 /* --------------HERO---------------- */
@@ -54,40 +60,43 @@
 }
 
 .header-main{
-    font-family: 'Roboto';
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 0.93;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .btn-order{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
+    line-height: 0.66;
     color: #FFFFFF;
     cursor: pointer;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.btn-order:hover{
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* --------------------ABOUT------------- */
 
 
 .title{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 0.83;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .text{
-    font-family: 'Roboto';
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.66;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -96,9 +105,8 @@
 /* -------------GALLERY------------- */
 
 .header-second{
-    font-family: 'Roboto';
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 0.9;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -114,14 +122,13 @@
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height:0.85;
     color: #F4F4FD;
 }
 
 .text-footer{
-    font-family: 'Roboto';
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.66;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
@@ -135,10 +142,10 @@
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.66;
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
