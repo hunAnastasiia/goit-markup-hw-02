@@ -21,7 +21,7 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.85;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -30,7 +30,7 @@ body {
 .nav{
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -41,7 +41,7 @@ body {
 
 .header-adress-link{
     font-size: 16px;
-    line-height: 0.66;
+    line-height:1.5;
     letter-spacing: 0.02em;
     color: #434455;
 } 
@@ -61,17 +61,18 @@ body {
 
 .header-main{
     font-size: 56px;
-    line-height: 0.93;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .btn-order{
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     color: #FFFFFF;
     cursor: pointer;
     background: #4D5AE5;
@@ -89,14 +90,14 @@ body {
 .title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.83;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .text{
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -106,7 +107,7 @@ body {
 
 .header-second{
     font-size: 36px;
-    line-height: 0.9;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -122,13 +123,13 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height:0.85;
+    line-height:1.16;
     color: #F4F4FD;
 }
 
 .text-footer{
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
@@ -145,7 +146,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.66;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
