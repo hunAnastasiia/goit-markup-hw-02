@@ -7,13 +7,13 @@
 --text-white:#F4F4FD;
 --border-light:#E7E9FC;
 --text-line-height: 1.5;
---box-shadow-light: 0px 4px 4px rgba(0, 0, 0, 0.15);
---btn-border-radius:4px;
 --title-letter-spasing:0.02em;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .list{
     list-style: none;
@@ -24,7 +24,6 @@ body {
 }
 
 .btn {
-    border-radius: var(--btn-border-radius);
     font-family: inherit;
     line-height: var(--text-line-height);
    background-color: var(--btn-blue);
@@ -88,11 +87,9 @@ body {
 
 .btn-order {
     color: var(--white);
-    box-shadow: var(--box-shadow-light);
 }
 .btn-order:is(:hover, :focus){
     background: var(--btn-hover);
-    box-shadow: var(--box-shadow-light);
 }
 
 
@@ -138,17 +135,12 @@ body {
 /* -----------------BTN----------- */
 
 .btn-profile{
-    width: 116px;
     background: var(--text-white);
-    border: 1px solid var(--border-light);
     letter-spacing: 0.04em;
 }
 
 .btn:is(:hover, :focus){
     background: var(--btn-hover);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 2px 1px rgba(0, 0, 0, 0.08),
-                0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--white);
 }
 
