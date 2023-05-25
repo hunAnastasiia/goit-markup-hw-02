@@ -43,15 +43,17 @@ body {
 /* ------------------------HEADER------------------------ */
 
 .header-logo{
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
+    color: #4D5AE5;
 }
-
+.header-logo-span  {
+    color: #2e2f42;
+}
 .nav{
     font-weight: 500;
     color: var(--dark);
@@ -63,6 +65,7 @@ body {
  
 .header-adress-link{
     color: var(--text-dark);
+    font-style: normal;
 } 
 
 .header-adress-link:is(:hover, :focus){
@@ -123,9 +126,8 @@ body {
 
 
 /* -------------FOOTER--------------- */
-
-.footer-logo {
-    color: var(--text-white);
+.footer-logo-span {
+    color: #FFFFFF;
 }
 .text-footer{
     color: var(--text-white);
