@@ -1,6 +1,19 @@
+:root {
+--dark:#2E2F42;
+--btn-blue:#4D5AE5;
+--btn-hover:#404BBF;
+--text-dark:#434455;
+--white:#FFFFFF;
+--text-white:#F4F4FD;
+--border-light:#E7E9FC;
+--text-line-height: 1.5;
+--box-shadow-light: 0px 4px 4px rgba(0, 0, 0, 0.15);
+--btn-border-radius:4px;
+--title-letter-spasing:0.02em;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    /* font-size: 16px; */
 }
 .list{
     list-style: none;
@@ -10,13 +23,25 @@ body {
     text-decoration: none;
 }
 
+.btn {
+    border-radius: var(--btn-border-radius);
+    font-family: inherit;
+    line-height: var(--text-line-height);
+   background-color: var(--btn-blue);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.big-title{
+    line-height: var(--text-line-height);
+    letter-spacing: var(--title-letter-spasing);
+}
 
 /* ------------------------HEADER------------------------ */
-
-
-.header{
-    background-color: #FFFFFF;
-}
 
 .header-logo{
     font-family: 'Raleway';
@@ -25,61 +50,49 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 .nav{
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 .nav:is(:hover,:focus) {
-    color: #404BBF;
+    color: var(--btn-hover);
 }
  
 .header-adress-link{
-    line-height:1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-dark);
 } 
 
 .header-adress-link:is(:hover, :focus){
-    color: #404BBF;
+    color: var(--btn-hover);
 }
 
 
 /* --------------HERO---------------- */
 
 
-
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--dark);
 }
 
-.header-main{
+.hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+    letter-spacing: var(--title-letter-spasing);
+    color: var(--white);
 }
 
-.btn-order{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #FFFFFF;
-    cursor: pointer;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+.btn-order {
+    color: var(--white);
+    box-shadow: var(--box-shadow-light);
 }
 .btn-order:is(:hover, :focus){
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: var(--btn-hover);
+    box-shadow: var(--box-shadow-light);
 }
 
 
@@ -90,14 +103,12 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    letter-spacing: var(--title-letter-spasing);
+    color: var(--dark);
 }
 
 .text{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-dark);
 }
 
 
@@ -107,49 +118,37 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing:var(--title-letter-spasing);
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 
 
 /* -------------FOOTER--------------- */
 
-
-.header-footer{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height:1.16;
-    color: #F4F4FD;
+.footer-logo {
+    color: var(--text-white);
 }
-
 .text-footer{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--text-white);
 }
 
 
 /* -----------------BTN----------- */
 
-.btn{
+.btn-profile{
     width: 116px;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.5;
+    background: var(--text-white);
+    border: 1px solid var(--border-light);
     letter-spacing: 0.04em;
-    color: #4D5AE5;
 }
 
 .btn:is(:hover, :focus){
-    background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    color: #FFFFFF;
+    background: var(--btn-hover);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 2px 1px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--white);
 }
 
