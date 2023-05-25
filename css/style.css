@@ -38,6 +38,7 @@ body {
 .big-title{
     line-height: var(--text-line-height);
     letter-spacing: var(--title-letter-spasing);
+    font-style: normal;
 }
 
 /* ------------------------HEADER------------------------ */
