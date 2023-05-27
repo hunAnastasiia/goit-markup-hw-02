@@ -42,6 +42,10 @@ body {
     font-style: normal;
 }
 
+address {
+    font-style: normal;
+}
+
 /* ------------------------HEADER------------------------ */
 
 .header-logo{
@@ -55,6 +59,10 @@ body {
 }
 .header-logo-span  {
     color: #2e2f42;
+}
+
+.header-list {
+   background-color:#FFFFFF;
 }
 .nav{
     font-weight: 500;
