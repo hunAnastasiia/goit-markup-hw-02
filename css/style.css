@@ -160,7 +160,7 @@ address {
 .btn-profile{
     background: var(--text-white);
     letter-spacing: 0.04em;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .btn:is(:hover, :focus){
