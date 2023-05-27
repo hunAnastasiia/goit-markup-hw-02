@@ -17,6 +17,7 @@ body {
 }
 .list{
     list-style: none;
+    background-color: #FFFFFF;
 }
 
 .link{
@@ -91,6 +92,8 @@ body {
 
 .btn-order {
     color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0.04em;
 }
 .btn-order:is(:hover, :focus){
     background: var(--btn-hover);
@@ -110,8 +113,17 @@ body {
 
 .text{
     color: var(--text-dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
+
+/* ----------------TEAM--------------------- */
+
+.team{
+    background-color: #F4F4FD;
+}
 
 /* -------------GALLERY------------- */
 
@@ -128,7 +140,7 @@ body {
 
 /* -------------FOOTER--------------- */
 .footer-logo-span {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
 .text-footer{
     color: var(--text-white);
@@ -140,6 +152,7 @@ body {
 .btn-profile{
     background: var(--text-white);
     letter-spacing: 0.04em;
+    font-size: 16px
 }
 
 .btn:is(:hover, :focus){
