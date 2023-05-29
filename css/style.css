@@ -115,12 +115,12 @@ address {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: var(--title-letter-spasing);
-    color: var(--dark);
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .text{
-    color: var(--text-dark);
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
