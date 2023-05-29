@@ -135,6 +135,10 @@ address {
 
 /* -------------GALLERY------------- */
 
+.gallery{
+    background-color: #FFFFFF;
+}
+
 .header-second{
     font-size: 36px;
     line-height: 1.11;
@@ -157,14 +161,20 @@ address {
 
 /* -----------------BTN----------- */
 
-.btn-profile{
-    background: var(--text-white);
+.btn-profile{ 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #F4F4FD;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #4d5ae5;
+    cursor: pointer;
 }
 
 .btn:is(:hover, :focus){
-    background: var(--btn-hover);
-    color: var(--white);
+    background-color: #404BBF;
+    color: #FFFFFF; 
 }
 
